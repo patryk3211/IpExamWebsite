@@ -1,0 +1,156 @@
+.studentnumber {
+  width: 25%;
+  min-width: 40px;
+}
+
+input.noarrows::-webkit-outer-spin-button,
+input.noarrows::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input.noarrows {
+  -moz-appearance: textfield;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.label {
+  color: #777;
+  font-size: 0.9em;
+}
+
+.binmask input {
+  width: 100px;
+}
+
+.decaddr input {
+  width: 50px;
+}
+
+.input-block {
+  display: flex;
+}
+
+.input-block > input {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding: 8px;
+}
+
+.input-block .input-text-deco {
+  display: inline-block;
+  padding: 8px 2px;
+  border: 1px solid var(--border-color-primary);
+}
+
+.question-ip {
+  width: 50%;
+  border-width: 2px !important;
+}
+
+.scorebar {
+  display: inline-block;
+  height: 16px;
+  flex: 1;
+}
+
+.scorebar .fill {
+  height: 100%;
+}
+
+.nopad {
+  padding: 0 !important;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+/*:root {
+  --border-color-primary: #777;
+  --background-primary: #fff;
+  --background-secondary: #ccc;
+  --background-dark: #282828;
+}
+
+body {
+  background-color: var(--background-dark);
+  font-family: sans-serif;
+}
+
+#ipfullform {
+  
+}
+
+#ipfullform > input {
+  display: block;
+}
+
+#ipfullform input {
+  font-size: 16px;
+  padding: 3px 6px;
+  border: 1px solid var(--border-color-primary);
+  border-radius: 4px 4px 4px 4px;
+}
+
+#ipfullform input:focus-visible {
+  outline: none;
+  box-shadow: 0px 0px 4px 0px #888;
+}
+
+.input-block > * {
+  border-left: none !important;
+  border-right: none !important;
+  border-radius: 0 !important;
+}
+
+.input-block input {
+  -moz-appearance: textfield;
+}
+
+.input-block input:first-child {
+  border-left: 1px solid var(--border-color-primary) !important;
+  border-radius: 4px 0 0 4px !important;
+}
+
+.input-block input:last-child {
+  border-right: 1px solid var(--border-color-primary) !important;
+  border-radius: 0 4px 4px 0 !important;
+}
+
+.input-block input::-webkit-outer-spin-button,
+.input-block input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.separator {
+  margin-bottom: 16px;
+}
+
+.separator-line {
+  border-top: 1px solid var(--border-color-primary);
+  margin-top: 8px;
+}
+
+.container {
+  width: fit-content;
+  background-color: var(--background-primary);
+  padding: 16px;
+  margin: 0 auto;
+}
+
+#ipfullform input[type=submit] {
+  background-color: #666;
+  color: #fff;
+  font-size: 18px;
+  border: none;
+  padding: 8px 12px;
+  margin-top: 8px;
+}
+*/

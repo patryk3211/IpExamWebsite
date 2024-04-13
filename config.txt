@@ -1,0 +1,19 @@
+# 1 - Pozwala na rozpoczęcie testu
+active = 1
+
+# Skala ocen wyrażona w procentach, potrzebne są 4 (skala ocen 1-5) lub 5 (skala ocen 1-6) wartości,
+# które ustalają minimalny wynik dla danej oceny
+# Przykład:
+#   grade_scale = 40,60,80,90
+# Oceny:
+#   1 - 0-39
+#   2 - 40-59
+#   3 - 60-79
+#   4 - 80-89
+#   5 - 90-100
+# Wartości są oddzielone przecinkami, a wartości dziesiętne zapisuje się po kropce
+grade_scale = 40,60,80,100
+
+# Czas na rozwiązanie testu hh:mm:ss
+time_limit = 00:05:00
+
