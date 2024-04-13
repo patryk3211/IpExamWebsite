@@ -37,7 +37,7 @@
         znajdują się bardzej szczegółowe wyniki wraz z udzielonymi odpowiedziamy.
         Zapisywany jest czas rozpoczęcia i zakończenia testu oraz IP z jakiego go
         rozwiązano. Kod do pobrania dostępny jest <a href="https://github.com/patryk3211/IpExamWebsite">tutaj</a>.
-        Aby zainstalować tę stronę należy ustawić katalog public jako katalog główny w serwerze HTTP.
+        Aby zainstalować tę stronę należy ustawić katalog public jako katalog główny w serwerze HTTP oraz usunąć plik demo.php
       </div>
       <a class="w3-button w3-teal w3-margin-bottom" href="index.php">Przetestuj</a>
   </div>
