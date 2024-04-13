@@ -23,10 +23,10 @@ function save_report($filename, $report_array) {
     fwrite($handle, '"'.$entry['decmask'].'",');
     fwrite($handle, '"'.$entry['netaddr'].'",');
     fwrite($handle, '"'.$entry['brdaddr'].'",');
-    fwrite($handle, '"'.$entry['binmask_score'].'",');
-    fwrite($handle, '"'.$entry['decmask_score'].'",');
-    fwrite($handle, '"'.$entry['netaddr_score'].'",');
-    fwrite($handle, '"'.$entry['brdaddr_score'].'"'."\n");
+    fwrite($handle, $entry['binmask_score'].',');
+    fwrite($handle, $entry['decmask_score'].',');
+    fwrite($handle, $entry['netaddr_score'].',');
+    fwrite($handle, $entry['brdaddr_score']."\n");
   }
   
   fclose($handle);
