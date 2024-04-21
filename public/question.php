@@ -41,6 +41,17 @@ $timeLeft = time_limit() - $duration;
         if (timeLeft <= 0)
           document.getElementById('ipfullform').submit();
       }, 1000);
+      document.querySelectorAll('#ipfullform input[type="text"]').forEach(el => {
+        el.addEventListener('beforeinput', event => {
+          if(event.data == '.') {
+            event.preventDefault();
+            var next = event.target.nextElementSibling;
+            while(next != null && next.nodeName != 'INPUT')
+              next = next.nextElementSibling;
+            if(next != null) next.focus();
+          }
+        })
+      });
     });
   </script>
 </head>

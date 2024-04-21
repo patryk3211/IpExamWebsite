@@ -17,3 +17,6 @@ grade_scale = 40,60,80,100
 # Czas na rozwiązanie testu hh:mm:ss
 time_limit = 00:05:00
 
+# Kodowanie plików (cp1250 - standard używany w Windowsie do kodowania polskich znaków)
+file_encoding = cp1250
+
